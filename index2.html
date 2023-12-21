@@ -6,7 +6,7 @@
     <title>tickets</title>
   </head>
   <body>
-   <div class="padre">
+    <div class="padre">
       <div>
         <div class="ticket">
           <div id="circulo1"></div>
@@ -77,7 +77,6 @@
           <div class="abajobolitas9"></div>
           <div class="abajobolitas10"></div>
           <div class="abajobolitas11"></div>
-
         </div>
       </div>
     </div>
@@ -85,117 +84,86 @@
 </html>
 
 <style>
-  .abajobolitas1 {
-    position: absolute;
-    top: 598px;
-    right: 30px;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #084298;
-  }
-  .abajobolitas2 {
-    position: absolute;
-    top: 598px;
-    right: 60px;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #084298;
-  }
-  .abajobolitas3 {
-    position: absolute;
-    top: 598px;
-    right: 90px;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #084298;
-  }
-  .abajobolitas4 {
-    position: absolute;
-    top: 598px;
-    right: 120px;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #084298;
-  }
-  .abajobolitas5 {
-    position: absolute;
-    top: 598px;
-    right: 150px;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #084298;
-  }
-  .abajobolitas6 {
-    position: absolute;
-    top: 598px;
-    right: 180px;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #084298;
-  }
-  .abajobolitas7 {
-    position: absolute;
-    top: 598px;
-    right: 210px;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #084298;
-  }
-  .abajobolitas8 {
-    position: absolute;
-    top: 598px;
-    right: 240px;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #084298;
-  }
-  .abajobolitas9 {
-    position: absolute;
-    top: 598px;
-    right: 270px;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #084298;
-  }
-  .abajobolitas10 {
-    position: absolute;
-    top: 598px;
-    right: 300px;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #084298;
-  }
+  .abajobolitas1,.abajobolitas2,.abajobolitas3,.abajobolitas4,.abajobolitas5,
+  .abajobolitas6,.abajobolitas7,.abajobolitas8,.abajobolitas9,.abajobolitas10,
   .abajobolitas11 {
     position: absolute;
     top: 598px;
-    right: 330px;
     width: 22px;
     height: 22px;
     border-radius: 50%;
     background: #084298;
   }
+  .abajobolitas1 { right: 30px; }
+  .abajobolitas2 { right: 60px; }
+  .abajobolitas3 { right: 90px; }
+  .abajobolitas4 { right: 120px; }
+  .abajobolitas5 { right: 150px; }
+  .abajobolitas6 { right: 180px; }
+  .abajobolitas7 { right: 210px; }
+  .abajobolitas8 { right: 240px; }
+  .abajobolitas9 { right: 270px; }
+  .abajobolitas10 { right: 300px; }
+  .abajobolitas11 { right: 330px; }
 
-
-  p {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: Arial;
-    color: #084298;
+  #circuloArriba1,#circuloArriba2,#circuloArriba3,#circuloArriba4,#circuloArriba5,
+  #circuloArriba6,#circuloArriba7,#circuloArriba8,#circuloArriba9,#circuloArriba10,
+  #circuloArriba11 {
+    position: absolute;
+    top: -10px;
+    width: 22px;
+    height: 22px;
+    background: #084298;
+    border-radius: 50%;
   }
+  #circuloArriba1 { right: 30px;  }
+  #circuloArriba2 { right: 60px;  }
+  #circuloArriba3 { right: 90px;  }
+  #circuloArriba4 { right: 120px;  }
+  #circuloArriba5 { right: 150px;  }
+  #circuloArriba6 { right: 180px;  }
+  #circuloArriba7 { right: 210px;  }
+  #circuloArriba8 { right: 240px;  }
+  #circuloArriba9 { right: 270px;  }
+  #circuloArriba10 { right: 300px;  }
+  #circuloArriba11 { right: 330px;  }
+
+  #circulo1,#circulo2 {
+    position: absolute;
+    top: 125px;
+    width: 60px;
+    height: 60px;
+    background: #084298;
+    border-radius: 50%;
+  }
+  #circulo1 { left: -30px;  }
+  #circulo2 { right: -30px;  }
+
+  #bolasBlancas1,#bolasBlancas2,#bolasBlancas3,#bolasBlancas4 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 50%;
+  }
+  #bolasBlancas1 {  top: -11px; left: -11px;  }
+  #bolasBlancas2 {  top: -11px; left: 279px;  }
+  #bolasBlancas3 {  top: 61px; left: 279px;  }
+  #bolasBlancas4 {  top: 61px; left: -11px;  }
+
+  #bolasBlancasBotton1,#bolasBlancasBotton2, #bolasBlancasBotton3,#bolasBlancasBotton4 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+  }
+  #bolasBlancasBotton1 { top: -25px; left: -25px;  }
+  #bolasBlancasBotton2 { top: -25px; left: 265px;  }
+  #bolasBlancasBotton3 { top: 545px; left: 265px; }
+  #bolasBlancasBotton4 { top: 545px; left: -25px; }
+ 
+
   .padre {
     position: relative;
     width: 540px;
@@ -207,7 +175,6 @@
     justify-content: center;
     align-items: center;
   }
-
   .padrecontent {
     width: 100%;
     /* 568px; */
@@ -217,6 +184,17 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #084298;
   }
   .textmsj {
     line-height: 1.5;
@@ -258,175 +236,6 @@
     width: 380px;
     height: 802px;
     background: #ffffff;
-  }
-
-  #circulo1 {
-    position: absolute;
-    top: 125px;
-    left: -30px;
-    width: 60px;
-    /* Diámetro del círculo */
-    height: 60px;
-    background: #084298;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #circulo2 {
-    position: absolute;
-    top: 125px;
-    right: -30px;
-    width: 60px;
-    /* Diámetro del círculo */
-    height: 60px;
-    background: #084298;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #circuloArriba1 {
-    position: absolute;
-    top: -10px;
-    right: 30px;
-    width: 22px;
-    /* Diámetro del círculo */
-    height: 22px;
-    background: #084298;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #circuloArriba2 {
-    position: absolute;
-    top: -10px;
-    right: 60px;
-    width: 22px;
-    /* Diámetro del círculo */
-    height: 22px;
-    background: #084298;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #circuloArriba3 {
-    position: absolute;
-    top: -10px;
-    right: 90px;
-    width: 22px;
-    /* Diámetro del círculo */
-    height: 22px;
-    background: #084298;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #circuloArriba4 {
-    position: absolute;
-    top: -10px;
-    right: 120px;
-    width: 22px;
-    /* Diámetro del círculo */
-    height: 22px;
-    background: #084298;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #circuloArriba5 {
-    position: absolute;
-    top: -10px;
-    right: 150px;
-    width: 22px;
-    /* Diámetro del círculo */
-    height: 22px;
-    background: #084298;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #circuloArriba6 {
-    position: absolute;
-    top: -10px;
-    right: 180px;
-    width: 22px;
-    /* Diámetro del círculo */
-    height: 22px;
-    background: #084298;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #circuloArriba7 {
-    position: absolute;
-    top: -10px;
-    right: 210px;
-    width: 22px;
-    /* Diámetro del círculo */
-    height: 22px;
-    background: #084298;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #circuloArriba8 {
-    position: absolute;
-    top: -10px;
-    right: 240px;
-    width: 22px;
-    /* Diámetro del círculo */
-    height: 22px;
-    background: #084298;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #circuloArriba9 {
-    position: absolute;
-    top: -10px;
-    right: 270px;
-    width: 22px;
-    /* Diámetro del círculo */
-    height: 22px;
-    background: #084298;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #circuloArriba10 {
-    position: absolute;
-    top: -10px;
-    right: 300px;
-    width: 22px;
-    /* Diámetro del círculo */
-    height: 22px;
-    background: #084298;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #circuloArriba11 {
-    position: absolute;
-    top: -10px;
-    right: 330px;
-    width: 22px;
-    /* Diámetro del círculo */
-    height: 22px;
-    background: #084298;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
   }
 
   #contentTop {
@@ -485,97 +294,6 @@
     font-weight: bold;
     font-family: Arial;
     color: #084298;
-  }
-  #bolasBlancas1 {
-    position: absolute;
-    top: -11px;
-    left: -11px;
-    width: 22px;
-    height: 22px;
-    background: #fff;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-  #bolasBlancas2 {
-    position: absolute;
-    top: -11px;
-    left: 279px;
-    width: 22px;
-    height: 22px;
-    background: #fff;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-  #bolasBlancas3 {
-    position: absolute;
-    top: 61px;
-    left: 279px;
-    width: 22px;
-    height: 22px;
-    background: #fff;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-  #bolasBlancas4 {
-    position: absolute;
-    top: 61px;
-    left: -11px;
-    width: 22px;
-    height: 22px;
-    background: #fff;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-  #bolasBlancasBotton1 {
-    position: absolute;
-    top: -25px;
-    left: -25px;
-    width: 50px;
-    height: 50px;
-    background: #fff;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #bolasBlancasBotton2 {
-    position: absolute;
-    top: -25px;
-    left: 265px;
-    width: 50px;
-    height: 50px;
-    background: #fff;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #bolasBlancasBotton3 {
-    position: absolute;
-    top: 545px;
-    left: 265px;
-    width: 50px;
-    height: 50px;
-    background: #fff;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
-  }
-
-  #bolasBlancasBotton4 {
-    position: absolute;
-    top: 545px;
-    left: -25px;
-    width: 50px;
-    height: 50px;
-    background: #fff;
-    /* Color del círculo */
-    border-radius: 50%;
-    /* Hace que sea un círculo */
   }
   .titulotikets {
     position: absolute;
